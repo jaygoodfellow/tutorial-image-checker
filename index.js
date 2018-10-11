@@ -2,7 +2,7 @@ const Crawler = require("sitebot");
 const got = require("got");
 const fs = require("fs");
 const crawler = new Crawler({
-  url: "http://the-internet.herokuapp.com/broken_images"
+  url: "https://www.libro.ca/"
 });
 crawler.parseBackgroundImages = true; //Have the crawler check for inline/css images as well
 
